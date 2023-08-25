@@ -1,8 +1,8 @@
 <?php
 
 
-use MyTheme\AutoLoader;
-use MyTheme\Component;
+use myspace\AutoLoader;
+use myspace\Component;
 
 
 /*
@@ -17,7 +17,7 @@ use MyTheme\Component;
 require get_stylesheet_directory() . '/app/AutoLoader.php';
 $loader = new AutoLoader();
 $loader->register();
-$loader->addNamespace( 'MyTheme', get_stylesheet_directory() . '/app' );
+$loader->addNamespace( 'myspace', get_stylesheet_directory() . '/app' );
 
 Component::$components_dir = get_stylesheet_directory() . '/templates/components';
 

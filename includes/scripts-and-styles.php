@@ -1,7 +1,7 @@
 <?php
 
 
-use MyTheme\AssetResolver;
+use myspace\AssetResolver;
 
 
 add_action( 'wp_enqueue_scripts', function () {

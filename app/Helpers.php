@@ -1,6 +1,6 @@
 <?php
 
-namespace MyTheme;
+namespace myspace;
 
 use WP_Error;
 use WP_Query;
