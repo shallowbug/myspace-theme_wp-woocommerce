@@ -1,6 +1,27 @@
-<?php 
-    
-    get_header();
+<?php get_header(); ?>
+<header>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Photos</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Playground</a></li>
+            <li><a href="">Coffee</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<?php ?>
+<?php ?>
+<?php ?>
+<?php ?>
+<?php ?>
+<?php ?>
+
+<?php
 
     the_title();
 
@@ -70,6 +91,7 @@
         }
     endwhile; // End of the loop.
 
-    get_footer();
+    ?>
 
-?>
+
+<?php get_footer(); ?>

@@ -1,0 +1,61 @@
+$bg-color: #e5e5e5; /* grey */
+
+$first-color: #003399; /* blue */
+$second-color: #fff; /* white */
+$third-color: #6698CB; /* light blue */
+
+$accent-color-dark: #FF9933; /* deep orange */
+$accent-color-light: #F9D6B4; /* light orange */
+
+$text-color-dark: #000; /* black */
+$text-color-light: #000; /* black */
+
+$link-color-special: #cc0000; /* red */
+
+$link-color-light: #fff; /* white */
+$link-color-light-hover: #040C5C; /* dark blue */
+
+$link-color-dark: #003399; /* blue */
+$link-color-dark-hover: #CC0000; /* red */
+
+body{
+	background-color: $bg-color;
+	color: $text-color-dark;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	a{
+		color: $link-color-light;
+
+		&hover{
+			color: $link-color-light-hover;
+		}
+	}
+}
+
+.theme-myspace{
+
+	/* start default theme */
+	.content{
+		width: 90%;
+		max-width: 800px;
+		margin: 0 auto;
+		background-color: $second-color;
+	}
+	header{
+		background-color: $first-color;
+		height: 152px;
+	}
+	nav{
+		background-color: $third-color;
+		height: 26px;
+
+		ul{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+	}
+	/* end default them */
+
+}
