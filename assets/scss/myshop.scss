@@ -1,3 +1,4 @@
+/* Default Colors */
 $bg-color: #e5e5e5; /* grey */
 
 $first-color: #003399; /* blue */
@@ -18,6 +19,8 @@ $link-color-light-hover: #040C5C; /* dark blue */
 $link-color-dark: #003399; /* blue */
 $link-color-dark-hover: #CC0000; /* red */
 
+/* end default colors */
+
 body{
 	background-color: $bg-color;
 	color: $text-color-dark;
@@ -37,14 +40,13 @@ body{
 
 	/* start default theme */
 	.content{
-		width: 90%;
-		max-width: 800px;
+		width: 800px;
 		margin: 0 auto;
 		background-color: $second-color;
 	}
 	header{
 		background-color: $first-color;
-		height: 152px;
+		height: 162px;
 	}
 	nav{
 		background-color: $third-color;
