@@ -1,4 +1,7 @@
 </div>
+<footer>
+    Made with &#9829; by: <a href="https://github.com/shallowbug/myspace-theme_wp-woocommerce">shallowbug</a>
+</footer>
 <?php wp_footer() ?>
 <script>
     window.isMobile = false

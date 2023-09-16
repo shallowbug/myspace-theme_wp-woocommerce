@@ -58,6 +58,14 @@ body{
 			justify-content: center;
 		}
 	}
+	#leftPane{
+		width: 303px;
+		max-width: 37%;
+	}
+	#rightPane{
+		width: 445px;
+		max-width: 55%;
+	}
 	/* end default them */
 
 }

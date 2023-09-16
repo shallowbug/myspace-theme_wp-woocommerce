@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <?php get_template_part( 'templates/partials/header-myshop' ); ?>
-<div class="flex flex-row">
-    <div class="flex flex-col">
+<div class="flex flex-row justify-evenly">
+    <div id="leftPane" class="flex flex-col">
         <div id="profileHeader" class="flex flex-row">
             <div id="profilePic" class="flex flex-col">
                 <?php the_title(); ?>
@@ -149,7 +149,7 @@
 
     </div>
 
-    <div class="flex flex-col">
+    <div id="rightPane" class="flex flex-col">
 
         <?php the_field('blurb'); ?>
 
