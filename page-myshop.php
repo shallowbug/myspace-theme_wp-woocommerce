@@ -1,11 +1,14 @@
 <?php get_header(); ?>
 
 <?php get_template_part( 'templates/partials/header-myshop' ); ?>
+
 <div class="flex flex-row justify-evenly">
     <div id="leftPane" class="flex flex-col">
         <div id="profileHeader" class="flex flex-row">
             <div id="profilePic" class="flex flex-col">
+                <div id="nameText" class="text-sm font-bold mb-2">
                 <?php the_title(); ?>
+                </div>
                 <?php the_post_thumbnail('medium'); ?>
                 <span id="mood" class="inline-block"><b>Mood:</b> <?php get_field('header_mood') ? the_field('header_mood') : null ;?></span>
 

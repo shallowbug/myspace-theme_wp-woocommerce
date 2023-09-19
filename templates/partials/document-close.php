@@ -1,3 +1,4 @@
+    </div>
 </div>
 <footer>
     Made with &#9829; by: <a href="https://github.com/shallowbug/myspace-theme_wp-woocommerce">shallowbug</a>

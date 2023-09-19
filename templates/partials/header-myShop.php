@@ -7,8 +7,9 @@
             <li><a href="">Photos</a></li>
             <li><a href="">Instagram</a></li>
             <li><a href="">Playground</a></li>
-            <li><a href="">Coffee</a></li>
             <li><a href="">Contact</a></li>
+            <li><a href="">Cart()</a></li>
         </ul>
     </nav>
 </header>
+<div id="mainContent" class="pt-4 pb-4">
